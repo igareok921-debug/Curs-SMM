@@ -22,7 +22,7 @@ export function Hero() {
                   type="button"
                   variant="primary"
                   hoverScale={1.04}
-                  className="bg-bg text-burgundy shadow-[0_14px_28px_rgba(107,36,38,0.18)] hover:bg-[#F4E4D8] hover:text-burgundy"
+                  className="!bg-burgundy !text-bg shadow-[0_14px_28px_rgba(107,36,38,0.18)] hover:!bg-[#F4E4D8] hover:!text-burgundy"
                 >
                   {content.hero.cta}
                 </Button>
