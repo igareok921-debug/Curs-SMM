@@ -4,9 +4,9 @@ import { content } from "../data/content";
 
 export function HeaderNav() {
   return (
-    <header className="nav-surface py-3">
+    <header className="nav-surface py-1.5 sm:py-3">
       <Container>
-        <div className="rounded-2xl bg-burgundy px-4 py-3 shadow-soft sm:px-6 lg:px-8">
+        <div className="rounded-2xl bg-burgundy px-3 py-2 shadow-soft sm:px-6 sm:py-3 lg:px-8">
           <nav className="flex items-center justify-between gap-4" aria-label="Primary">
             <a href="#top" className="font-serif text-lg tracking-wide text-white sm:text-xl">
               {content.brandName}

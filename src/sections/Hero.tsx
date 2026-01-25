@@ -4,19 +4,19 @@ import { content } from "../data/content";
 
 export function Hero() {
   return (
-    <section id="top" className="hero-section pt-10 sm:pt-14 lg:pt-20">
+    <section id="top" className="hero-section pt-8 sm:pt-12 lg:pt-16">
       <Container>
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+        <div className="grid items-center gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-14">
           <div>
             <h1 className="text-[36px] leading-[1.05] sm:text-[44px] lg:text-[64px]">
               {content.hero.title}
             </h1>
 
-            <p className="mt-5 max-w-xl text-[16px] leading-[1.7] text-ink-800 sm:text-[17px] lg:text-[18px]">
+            <p className="mt-4 max-w-xl text-[16px] leading-[1.7] text-ink-800 sm:text-[17px] lg:text-[18px]">
               {content.hero.subtitle}
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-6 flex flex-wrap items-center gap-3">
               <a href="https://forms.gle/sVCxfXV3WMkLzeRu6" target="_blank" rel="noreferrer">
                 <Button
                   type="button"
