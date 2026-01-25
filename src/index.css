@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --nav-offset: 120px;
+  scroll-padding-top: var(--nav-offset);
+}
+
+html,
+body {
+  height: 100%;
+  overscroll-behavior-y: none;
+}
+
+section {
+  scroll-margin-top: var(--nav-offset);
+}
+
+[id] {
+  scroll-margin-top: var(--nav-offset);
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+body {
+  @apply bg-bg text-ink-800 font-sans antialiased;
+  background-image:
+    radial-gradient(1200px 700px at 10% 5%, rgba(255, 255, 255, 0.55), transparent 60%),
+    radial-gradient(900px 600px at 90% 20%, rgba(255, 255, 255, 0.35), transparent 60%),
+    linear-gradient(180deg, rgba(250, 240, 233, 0.9), rgba(244, 228, 216, 0.95));
+}
+
+.hero-wrap {
+  background-image:
+    radial-gradient(1000px 520px at 12% 10%, rgba(255, 255, 255, 0.85), transparent 58%),
+    radial-gradient(820px 460px at 85% 18%, rgba(255, 255, 255, 0.55), transparent 62%),
+    linear-gradient(
+      180deg,
+      rgba(244, 228, 216, 0.95) 0%,
+      rgba(236, 213, 207, 0.98) 70%,
+      rgba(243, 230, 218, 0.98) 100%
+    );
+}
+
+.hero-section {
+  background: transparent;
+}
+
+.nav-surface {
+  background: transparent;
+}
+
+.page-sections {
+  background-color: #F4E4D8;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-serif text-burgundy;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(134, 45, 62, 0.65);
+  outline-offset: 3px;
+}
