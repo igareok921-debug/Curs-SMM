@@ -1,6 +1,7 @@
 import { Container } from "../components/Container";
 import { Button } from "../components/Button";
 import { content } from "../data/content";
+import heroImage from "../assets/2026-01-28 18.49.36.jpg";
 
 export function Hero() {
   return (
@@ -22,7 +23,7 @@ export function Hero() {
                   type="button"
                   variant="primary"
                   hoverScale={1.04}
-                  className="!bg-burgundy !text-bg shadow-[0_14px_28px_rgba(107,36,38,0.18)] hover:!bg-[#F4E4D8] hover:!text-burgundy"
+                  className="btn-pulse !bg-burgundy !text-bg shadow-[0_14px_28px_rgba(107,36,38,0.18)] hover:!bg-[#F4E4D8] hover:!text-burgundy"
                 >
                   {content.hero.cta}
                 </Button>
@@ -37,8 +38,9 @@ export function Hero() {
 
           <div className="relative mx-auto w-full max-w-sm lg:mx-0 lg:justify-self-end">
             <div className="rounded-card border border-borderNeutral bg-white/30 p-3 shadow-[0_24px_60px_rgba(84,45,45,0.25)]">
-              {/* Placeholder imagine trainer (fără librării; înlocuiești ulterior cu asset real) */}
-              <div className="aspect-[4/5] w-full rounded-[18px] bg-burgundy/10 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.4)]" aria-hidden="true" />
+              <div className="aspect-[4/5] w-full overflow-hidden rounded-[18px] shadow-[inset_0_0_0_1px_rgba(255,255,255,0.4)]">
+                <img src={heroImage} alt="Trainer" className="h-full w-full object-cover" />
+              </div>
             </div>
 
             {/* metrics removed */}

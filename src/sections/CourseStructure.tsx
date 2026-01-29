@@ -15,7 +15,12 @@ export function CourseStructure() {
 
         <div className="mt-10 space-y-5 sm:space-y-6">
           {content.modules.map((m, index) => (
-            <ModuleCard key={m.id} module={m} tone={index % 2 === 0 ? "base" : "alt"} />
+            <ModuleCard
+              key={m.id}
+              module={m}
+              tone={index % 2 === 0 ? "base" : "alt"}
+              motionFrom={index % 2 === 0 ? "left" : "right"}
+            />
           ))}
         </div>
       </Container>

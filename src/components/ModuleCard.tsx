@@ -4,17 +4,19 @@ import type { CourseModule } from "../data/content";
 type Props = {
   module: CourseModule;
   tone?: "base" | "alt";
+  motionFrom?: "left" | "right";
 };
 
-export function ModuleCard({ module, tone = "base" }: Props) {
+export function ModuleCard({ module, tone = "base", motionFrom = "left" }: Props) {
   const bgTone = tone === "alt" ? "bg-[#F8F0EA]" : "bg-[#F7EFEA]";
+  const xOffset = motionFrom === "left" ? -28 : 28;
 
   return (
     <motion.article
       className={`rounded-card border border-[#DDCBBF] ${bgTone} p-5 shadow-[0_10px_24px_rgba(84,45,45,0.08)] transition duration-200 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-[0_18px_40px_rgba(84,45,45,0.16)] sm:p-7`}
-      initial={{ opacity: 0, y: 12, scale: 0.98 }}
-      whileInView={{ opacity: 1, y: 0, scale: 1 }}
-      viewport={{ once: true, amount: 0.2 }}
+      initial={{ opacity: 0, x: xOffset, y: 12, scale: 0.98 }}
+      whileInView={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+      viewport={{ once: false, amount: 0.2 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <h3 className="flex items-center gap-3 text-[18px] leading-snug sm:text-[22px] lg:text-[26px]">

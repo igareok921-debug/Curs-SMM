@@ -71,3 +71,36 @@ h3 {
   outline: 2px solid rgba(134, 45, 62, 0.65);
   outline-offset: 3px;
 }
+
+
+.btn-pulse {
+  animation: button-heartbeat 3.2s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes button-heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  6% {
+    transform: scale(1.1);
+  }
+  12% {
+    transform: scale(1);
+  }
+  18% {
+    transform: scale(1.05);
+  }
+  26% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-pulse {
+    animation: none;
+  }
+}

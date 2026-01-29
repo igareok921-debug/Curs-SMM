@@ -18,7 +18,7 @@ export function FinalCTA() {
                   type="button"
                   variant="primary"
                   hoverScale={1.02}
-                  className="!bg-bg !text-burgundy hover:!bg-bg hover:!text-burgundy"
+                  className="btn-pulse !bg-bg !text-burgundy hover:!bg-bg hover:!text-burgundy"
                 >
                   {content.finalCta.button}
                 </Button>
