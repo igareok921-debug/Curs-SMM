@@ -7,7 +7,7 @@ export type CourseModule = {
 };
 
 export const content = {
-  brandName: "Fiama Troian",
+  brandName: "Fiiama",
 
   nav: {
     links: [
