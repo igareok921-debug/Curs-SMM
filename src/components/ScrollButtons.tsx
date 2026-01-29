@@ -1,4 +1,4 @@
-import phoneIcon from "../assets/el_phone-alt.svg?v=2";
+import phoneIcon from "../assets/el_phone-alt.svg";
 
 export function ScrollButtons() {
   const scrollToTop = () => {
