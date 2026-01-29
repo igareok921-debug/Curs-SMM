@@ -98,9 +98,3 @@ h3 {
     transform: scale(1);
   }
 }
-
-@media (prefers-reduced-motion: reduce) {
-  .btn-pulse {
-    animation: none;
-  }
-}

@@ -14,8 +14,8 @@ export function ModuleCard({ module, tone = "base", motionFrom = "left" }: Props
   return (
     <motion.article
       className={`rounded-card border border-[#DDCBBF] ${bgTone} p-5 shadow-[0_10px_24px_rgba(84,45,45,0.08)] transition duration-200 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-[0_18px_40px_rgba(84,45,45,0.16)] sm:p-7`}
-      initial={{ opacity: 0, x: xOffset, y: 12, scale: 0.98 }}
-      whileInView={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+      initial={{ x: xOffset, y: 12, scale: 0.98 }}
+      whileInView={{ x: 0, y: 0, scale: 1 }}
       viewport={{ once: false, amount: 0.2 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
