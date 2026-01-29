@@ -3,8 +3,10 @@ import { Hero } from "./sections/Hero";
 import { MessageSection } from "./sections/MessageSection";
 import { AudienceSections } from "./sections/AudienceSections";
 import { CourseStructure } from "./sections/CourseStructure";
+import { Testimonials } from "./sections/Testimonials";
 import { FinalCTA } from "./sections/FinalCTA";
 import { Footer } from "./sections/Footer";
+import { ScrollButtons } from "./components/ScrollButtons";
 
 export default function App() {
   return (
@@ -17,8 +19,10 @@ export default function App() {
         <MessageSection />
         <AudienceSections />
         <CourseStructure />
+        <Testimonials />
         <FinalCTA />
       </main>
+      <ScrollButtons />
       <Footer />
     </>
   );

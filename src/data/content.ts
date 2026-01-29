@@ -13,6 +13,7 @@ export const content = {
     links: [
       { label: "Despre Curs", href: "#despre-curs" },
       { label: "Module", href: "#module" },
+      { label: "Testimoniale", href: "#testimoniale" },
       { label: "Înscrieri", href: "#inscrieri" },
     ],
     cta: "Înscrie-te",
@@ -155,10 +156,57 @@ export const content = {
     button: "Înscrie-te",
   },
 
+  testimonials: {
+    title: "TESTIMONIALE",
+    items: [
+      {
+        name: "Ana Popescu",
+        gender: "f",
+        text: "Nu credeam că niște detalii atât de mici pot schimba atât de mult rezultatul. După sfaturile tale, pagina mea arată mult mai profesionist și am început să primesc mesaje de la cliente noi. Mulțumesc enorm!",
+      },
+      {
+        name: "Irina Dobre",
+        gender: "f",
+        text: "Vreau să-ți mulțumesc pentru toată strategia și ideile tale 🙏 După ce am aplicat ce mi-ai spus, am mai multă încredere să postez și chiar se simte diferența. Ești foarte clară și explici pe înțelesul tuturor.",
+      },
+      {
+        name: "Raluca Ionescu",
+        gender: "f",
+        text: "Ai un mod foarte clar de a explica și asta contează enorm. M-ai ajutat să-mi structurez serviciile și să le prezint mult mai profesionist. Mulțumesc mult!",
+      },
+      {
+        name: "Andreea Mihai",
+        gender: "f",
+        text: "Ai reușit să transformi ideea mea într-un concept frumos și clar.",
+      },
+      {
+        name: "Elena Matei",
+        gender: "f",
+        text: "Promovarea evenimentului a fost impecabilă, iar reacțiile oamenilor au fost foarte bune. Mulțumesc mult!",
+      },
+      {
+        name: "Carmen Stan",
+        gender: "f",
+        text: "Mulțumim pentru tot sprijinul și răbdarea ta. Ai știut exact cum să ne explici ce avem de făcut și cum să comunicăm mai bine cu clienții noștri.",
+      },
+      {
+        name: "Diana Rusu",
+        gender: "f",
+        text: "Îți mulțumesc pentru tot ajutorul oferit. Ai reușit să ne pui în valoare lucrările și să explici clar ce facem. Se vede diferența pe pagină.",
+      },
+      {
+        name: "Bianca Ilie",
+        gender: "f",
+        text: "Îți mulțumesc pentru tot ce ai împărtășit cu mine. Se simte că faci asta din experiență reală, nu din teorie. Ești foarte clară și sinceră.",
+      },
+    ],
+  },
+
   footer: {
     links: [
       { label: "Despre Curs", href: "#despre-curs" },
       { label: "Module", href: "#module" },
+      { label: "Testimoniale", href: "#testimoniale" },
       { label: "Înscrieri", href: "#inscrieri" },
     ],
     contactTitle: "Contact",
