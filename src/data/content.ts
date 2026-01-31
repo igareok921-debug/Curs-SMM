@@ -20,8 +20,8 @@ export const content = {
   },
 
   hero: {
-    title: "STRATEGIE DE BRAND SOCIAL MEDIA",
-    subtitle: "Construirea unei prezențe online care vinde",
+    title: "Intră în lumea SMM-ului",
+    subtitle: "Învață de la zero împreună cu mine",
     cta: "Înscrie-te la curs",
   },
 
