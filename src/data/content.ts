@@ -20,7 +20,7 @@ export const content = {
   },
 
   hero: {
-    title: "Intră în lumea SMM-ului",
+    title: "Cum faci bani din SMM",
     subtitle: "Învață de la zero împreună cu mine",
     cta: "Înscrie-te la curs",
   },
