@@ -21,19 +21,20 @@ export const content = {
 
   hero: {
     title: "Cum faci bani din SMM",
-    subtitle: "Învață de la zero împreună cu mine",
-    cta: "Înscrie-te la curs",
+    subtitle: "Învață de la zero cum să creezi conținut, să promovezi o afacere și să transformi Social Media într-o profesie.",
+    vipNote: "În formatul VIP: lecție exclusivă cu invitatul special Alexandru Bordea",
+    cta: "Aplică pentru un loc",
   },
 
   message: {
     title: "EȘTI GATA SĂ ÎNCEPI?",
     paragraphs: [
       "Dacă îți dorești structură, claritate și o înțelegere reală a Social Media Managementului, acest curs este pentru tine.",
-      "Nu promitem rezultate peste noapte, ci îți oferim strategii aplicabile, practică reală și o bază solidă pentru a construi corect.",
+      "Nu îți promit rezultate peste noapte. Îți ofer informații actuale, strategii aplicabile, practică reală și o bază solidă pentru a începe corect.",
       "Următorul pas depinde de tine.",
     ],
     highlight: "Construiește o prezență online care chiar funcționează.",
-    cta: "Vezi programul cursului",
+    cta: "Descoperă programul cursului",
   },
 
   courseStructure: {

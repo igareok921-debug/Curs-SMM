@@ -17,6 +17,18 @@ export function Hero() {
               {content.hero.subtitle}
             </p>
 
+            <div className="mt-5 w-full max-w-[820px] rounded-[32px] border border-burgundy/20 bg-white/60 px-5 py-4 text-burgundy shadow-sm backdrop-blur-sm sm:px-6">
+              <div className="flex flex-wrap items-center gap-2 text-base font-medium leading-relaxed sm:text-lg">
+                <span>În formatul</span>
+                <span className="inline-flex h-8 min-w-[58px] items-center justify-center rounded-full bg-[#f2e6df] px-3 text-[11px] font-bold uppercase tracking-[0.08em] shadow-sm">
+                  VIP
+                </span>
+              </div>
+              <p className="mt-2 text-base font-medium leading-relaxed text-burgundy sm:text-lg">
+                Lecție exclusivă cu invitatul special Alexandru Bordea
+              </p>
+            </div>
+
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a href="https://forms.gle/sVCxfXV3WMkLzeRu6" target="_blank" rel="noreferrer">
                 <Button
