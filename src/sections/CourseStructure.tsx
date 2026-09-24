@@ -39,7 +39,7 @@ export function CourseStructure() {
 
         <div className="mt-10 space-y-5 sm:space-y-6">
           {content.modules.map((m, index) => {
-            const isGuestSectionAfterModule3 = index === 2;
+            const isGuestSectionAfterModule3 = index === 3;
 
             return (
               <>
