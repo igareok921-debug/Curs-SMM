@@ -134,7 +134,7 @@ export function CourseStructure() {
           </p>
 
           <div className="mt-8">
-            <a href="https://forms.gle/sVCxfXV3WMkLzeRu6" target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxKg2bxLgE5ETistNj2OQjosbXP4xFFs1XGeOFBkosOYbDFQ/viewform?usp=publish-editor" target="_blank" rel="noreferrer">
               <Button type="button" variant="primary" hoverScale={1.02} className="btn-pulse !bg-burgundy !text-bg shadow-[0_14px_28px_rgba(107,36,38,0.18)] hover:!bg-[#F4E4D8] hover:!text-burgundy">
                 Solicită un apel
               </Button>

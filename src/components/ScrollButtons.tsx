@@ -12,7 +12,7 @@ export function ScrollButtons() {
   return (
     <div className="fixed bottom-5 right-5 z-50 flex items-end gap-2">
       <a
-        href="https://forms.gle/sVCxfXV3WMkLzeRu6"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdxKg2bxLgE5ETistNj2OQjosbXP4xFFs1XGeOFBkosOYbDFQ/viewform?usp=publish-editor"
         target="_blank"
         rel="noreferrer"
         aria-label="Înscriere rapidă"

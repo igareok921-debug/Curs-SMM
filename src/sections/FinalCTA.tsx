@@ -13,7 +13,7 @@ export function FinalCTA() {
             </p>
 
             <div>
-              <a href="https://forms.gle/sVCxfXV3WMkLzeRu6" target="_blank" rel="noreferrer">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxKg2bxLgE5ETistNj2OQjosbXP4xFFs1XGeOFBkosOYbDFQ/viewform?usp=publish-editor" target="_blank" rel="noreferrer">
                 <Button
                   type="button"
                   variant="primary"

@@ -29,7 +29,7 @@ export function HeaderNav() {
 
             <div className="flex items-center gap-2">
               <a
-                href="https://forms.gle/sVCxfXV3WMkLzeRu6"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdxKg2bxLgE5ETistNj2OQjosbXP4xFFs1XGeOFBkosOYbDFQ/viewform?usp=publish-editor"
                 className="hidden shrink-0 md:inline-flex"
                 target="_blank"
                 rel="noreferrer"
@@ -84,7 +84,7 @@ export function HeaderNav() {
                 </a>
               ))}
             </div>
-            <a href="https://forms.gle/sVCxfXV3WMkLzeRu6" target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxKg2bxLgE5ETistNj2OQjosbXP4xFFs1XGeOFBkosOYbDFQ/viewform?usp=publish-editor" target="_blank" rel="noreferrer">
               <Button
                 type="button"
                 variant="primary"
